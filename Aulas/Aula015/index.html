@@ -3,33 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fontes em CSS</title>
+    <title>Fontes com Google Fonts</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
         body{
             font-family: Arial, Helvetica, sans-serif;
-
-            /*
-            Medidas Absolutas
-            cm, mm, in, px, pt, pc
-
-            Medidas Relativas
-            em, ex, rem, vw, vh, %
-            16px geralmente = 1em
-            */
             font-size: 1em;
-            font-weight: normal;
-            /* lighter, normal, bold, bolder */
-            font-style: normal;
-            /*italic, normal*/
-
+            color: black;
         }
 
         h1{
-            /* shorthand font
-            - font-style -> font-weight -> font-size -> font-family
-            */
-
-            font: italic bolder 2em arial, helvetica, sans-serif;
+            font-family: 'Dramaturgia Deutschland Grundschrift';
         }
     </style>
 </head>
