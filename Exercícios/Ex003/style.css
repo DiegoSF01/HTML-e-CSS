@@ -1,2 +1,71 @@
-@import url(fontes/idroid.otf);
+@font-face {
+    font-family: "Android";
+    src: url(fontes/idroid.otf);
+}
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(204, 199, 153, 0.699);
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(49, 182, 98), rgb(4, 63, 25));
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 5px 1px 10px 0px black;;
+}
+
+nav{
+    text-shadow: none;
+    margin-top: 10%;
+    padding-bottom: 15px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+nav > a:hover{
+    background-color: rgba(49, 182, 98, 0.74);
+    color: rgb(4, 63, 25);
+    border-radius: 5px;
+}
+
+main{
+    background-color: white;
+    width: 70%;
+    margin: 0px auto auto auto;
+}
+
+main > h1{
+    font-family: Android;
+    color: rgb(4, 63, 25);
+    font-size: 100%;
+    margin: 0px 5% 0px 1%;
+}
+
+main > h2{
+    font-family: Android;
+    font-size: 100%;
+    background-color: rgba(49, 182, 98, 0.432);
+    color: rgba(4, 63, 25, 0.801);
+}
+
+main > p{
+    text-align: justify;
+    text-indent: 4%;
+    margin: 0px 10px 0px 10px;
+}
+main > article{
+    text-align: justify;
+    text-indent: 10px;
+}
