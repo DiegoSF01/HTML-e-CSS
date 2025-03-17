@@ -44,28 +44,74 @@ main{
     background-color: white;
     width: 70%;
     margin: 0px auto auto auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 6px 7px 11px #0000003b;
 }
 
 main > h1{
     font-family: Android;
     color: rgb(4, 63, 25);
-    font-size: 100%;
+    font-size: 135%;
     margin: 0px 5% 0px 1%;
 }
 
 main > h2{
     font-family: Android;
-    font-size: 100%;
-    background-color: rgba(49, 182, 98, 0.432);
+    font-size: 120%;
+    background: linear-gradient(to right, rgba(49, 182, 98, 0.432), white);
     color: rgba(4, 63, 25, 0.801);
+    margin: 2%;
 }
 
 main > p{
     text-align: justify;
     text-indent: 4%;
-    margin: 0px 10px 0px 10px;
+    margin: 20px 10px 20px 10px;
 }
+
 main > article{
     text-align: justify;
     text-indent: 10px;
+}
+
+.link{
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgba(49, 182, 98, 0.432);
+    color: rgba(4, 63, 25, 0.801);
+}
+
+main > b{
+    color: rgba(1, 31, 11, 0.801);
+}
+
+article{
+    margin: 5%;
+    border-radius: 10px;
+    background-color: rgba(49, 182, 98, 0.432);
+    box-shadow: 4px 3px 8px 0px #0000003b;
+}
+
+article > h2{
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(9, 92, 39);
+    height: 40px;
+    text-align: left;
+    color: white;
+}
+
+article > p {
+    margin: 0px 20px;
+}
+
+footer{
+    background-color: rgb(10, 66, 10);
+    color: white;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+iframe {
+    width: 100%;
 }
