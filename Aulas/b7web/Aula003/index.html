@@ -7,11 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="#" method="get">
+    <form action="#" method="GET" enctype="multipart/form-data">
 
         <fieldset id="field-pessoal">
             <legend id="leg-pessoal">Dados Pessoais</legend>
 
+            <input type="hidden" name="pais" value="BR">
+            
             <label>
                 Nome:
                 <br>
@@ -32,6 +34,14 @@
                 Idade:
                 <br>
                 <input type="number" name="idade" min="18">
+            </label>
+
+            <br>
+
+            <label>
+                Foto:
+                <br>
+                <input type="file" name="Foto" accept="image/*">
             </label>
         </fieldset>
 
