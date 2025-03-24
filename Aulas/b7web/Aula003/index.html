@@ -3,40 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <form action="#" method="get">
 
-        <fieldset>
-            <legend>Dados Pessoais</legend>
+        <fieldset id="field-pessoal">
+            <legend id="leg-pessoal">Dados Pessoais</legend>
 
             <label>
                 Nome:
-                <input type="text">
-
                 <br>
+                <input type="text" name="nome" required minlength="3">
+            </label>
 
+            <br>
+
+            <label>
                 Sobrenome:
-                <input type="text">
+                <br>
+                <input type="text" name="sobrenome" required>
+            </label>
+
+            <br>
+            
+            <label>
+                Idade:
+                <br>
+                <input type="number" name="idade" min="18">
             </label>
         </fieldset>
 
-        <fieldset>
-            <legend>Dados Profissionais</legend>
+        <fieldset id="field-profi">
+            <legend id="leg-profi">Dados Profissionais</legend>
 
             <label>
                 Nome da Empresa:
-                <input type="text">
-
                 <br>
+                <input type="text" name="nomeempresa">
+            </label>
 
+            <br>
+
+            <label>
                 Cargo:
-                <input type="text">
+                <br>
+                <input type="text" name="cargo" minlength="3">
             </label>
         </fieldset>
 
-        <input type="submit">
+        <input type="submit" id="button">
     </form>
 </body>
 </html>

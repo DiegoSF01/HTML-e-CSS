@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset{
+    margin: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(196, 196, 196);
+}
+
+legend{
+    color: white;
+    padding: 5px;
+}
+
+#field-pessoal{
+    border: 1px solid blue;
+}
+
+#leg-pessoal{
+    background-color: blue;
+}
+
+#field-profi{
+    border: 1px solid red;
+}
+
+#leg-profi{
+    background-color: red;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+#button{
+    margin-left: 10px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+#button:hover{
+    background-color: rgb(204, 204, 204);
+}
