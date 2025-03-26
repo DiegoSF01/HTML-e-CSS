@@ -1,0 +1,37 @@
+:root{
+    --bg-color1: black;
+    --bg-color2: #444;
+    --font-color1: #fff;
+    --font-sizeh1-G: 30px;
+    --font-sizeh1-M: 25px;
+    --font-sizeh1-P: 20px
+}
+
+body{
+    background-color: var(--bg-color1);
+    color: var(--font-color1);
+}
+
+h1{
+    background-color: var(--bg-color2, rgb(88, 88, 88));
+}
+
+@media (max-width: 1000px){
+    h1{
+        font-size: var(--font-sizeh1-G);
+    }
+}
+
+
+@media (max-width: 700px){
+    h1{
+        font-size: var(--font-sizeh1-M);
+    }
+}
+
+
+@media (max-width: 500px){
+    h1{
+        font-size: var(--font-sizeh1-P);
+    }
+}
