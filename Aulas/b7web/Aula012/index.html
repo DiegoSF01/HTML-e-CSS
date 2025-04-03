@@ -39,6 +39,7 @@
             */
 
             flex-flow: row wrap;
+            justify-content: center;
             background-color: gray;
         }
 
@@ -51,6 +52,75 @@
             color: white;
             text-align: center;
         }
+
+        .container3 {
+            display: flex;
+            height: 500px;
+            background-color: gray;
+            flex-flow: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container3 div{
+            box-sizing: border-box;
+            width: 100px;
+            height: 100px;
+            color: white;
+            background-color: brown;
+            font-size: 18px;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .container4 {
+            height: 500px;
+            background-color: gray;
+            display: flex;
+            flex-flow: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container4 div{
+            width: 100px;
+            height: 100px;
+            font-size: 18px;
+            margin: 10px;
+            padding: 10px;
+            background-color: brown;
+            color: white;
+            text-align: center;
+        }
+
+        #div5{
+            align-self: flex-start;
+        }
+
+        #div5:hover{
+            order: 1;
+        }
+
+        .container5{
+            background-color: gray;
+            height: 800px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .container5 div{
+            color: white;
+            margin: 10px;
+            padding: 10px;
+            background-color: brown;
+            font-size: 18px;
+            height: 200px;
+            width: 200px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -59,23 +129,65 @@
         <div class="div2">2</div>
     </div>
 
+    <br>
+
     <div class="container1">
         <div class="div1">1</div>
         <div class="div2">2</div>
         <div class="div3">3</div>
     </div>
 
+    <br>
+
     <div class="container2">
-        <div class="div">1</div>
-        <div class="div">2</div>
-        <div class="div">3</div>
-        <div class="div">4</div>
-        <div class="div">5</div>
-        <div class="div">6</div>
-        <div class="div">7</div>
-        <div class="div">8</div>
-        <div class="div">9</div>
-        <div class="div">10</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+
+    <br>
+
+    <div class="container3">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <br>
+    
+    <div class="container4">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div id="div5">5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+
+    <br>
+
+    <div class="container5">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
     </div>
 </body>
 </html>
